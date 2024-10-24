@@ -51,6 +51,8 @@ class LibraryKmpPlugin : Plugin<Project> {
       watchosSimulatorArm64()
       watchosX64()
 
+      mingwX64()
+
       applyDefaultHierarchyTemplate()
     }
     configureJavaCompile()
